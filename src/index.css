@@ -34,6 +34,8 @@ h1 {
   word-spacing: 30px;
   letter-spacing: -5px;
   padding: 2.4rem 0;
+    display: flex;
+  justify-content: center;
 }
 
 .add-form {
@@ -42,6 +44,7 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
+  flex-wrap: wrap;
 }
 
 h3 {
@@ -68,6 +71,7 @@ input {
   text-transform: uppercase;
   background-color: #6b48ff;
   color: black;
+    flex-wrap: wrap;
 }
 
 .list {
